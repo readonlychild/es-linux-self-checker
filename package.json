@@ -1,0 +1,23 @@
+{
+  "name": "es-linux-self-checker",
+  "version": "1.0.0",
+  "description": "For a linux VM (aws linux2 ami), script to check-health and report to es index instance_checks-YYYYMM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/readonlychild/es-linux-self-checker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/readonlychild/es-linux-self-checker/issues"
+  },
+  "homepage": "https://github.com/readonlychild/es-linux-self-checker#readme",
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}
